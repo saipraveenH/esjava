@@ -4,11 +4,11 @@ import org.elasticsearch.client.Client;
 import org.elasticsearch.index.query.QueryBuilder;
 import static org.elasticsearch.index.query.QueryBuilders.*;
 
-public class CountService {
+public class SearchService {
 
 	Client client;
 
-	public CountService(Client client) {
+	public SearchService(Client client) {
 		this.client = client;
 	}
 
